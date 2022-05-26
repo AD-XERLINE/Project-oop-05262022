@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashboardController">
+   <children>
+      <HBox style="-fx-background-color: #ffff;">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="TEACHER">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox>
+                           <children>
+                              <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label alignment="TOP_LEFT" text="NoN" textFill="#6b6868">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="GO!">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox>
+                           <children>
+                              <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label alignment="TOP_LEFT" text="NoN" textFill="#6b6868">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="GO!">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="VACCINATED">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox>
+                           <children>
+                              <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label alignment="TOP_LEFT" text="NoN" textFill="#6b6868">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="addicted to covid">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <Label alignment="CENTER" text="NoN" textFill="#6b6868">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" VBox.vgrow="NEVER">
+         <children>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="TEACHER" textAlignment="CENTER" wrappingWidth="336.58984375">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <TextField promptText="Search" style="-fx-background-radius: 5; -fx-background-color: #ffff; -fx-border-color: #ececec;" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage2" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage21" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage22" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage23" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage24" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage241" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-03-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT" textAlignment="CENTER" wrappingWidth="336.58984375">
+                     <font>
+                        <Font size="23.5" />
+                     </font>
+                  </Text>
+                  <TextField promptText="Search" style="-fx-background-radius: 5; -fx-background-color: #ffff; -fx-border-color: #ececec;" />
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage21" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage211" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage212" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage213" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage214" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="218.0" style="-fx-background-color: #ececec;">
+                     <children>
+                        <ImageView fx:id="CompImage2141" fitHeight="42.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@project1%20comp-04-01.jpg" />
+                           </image>
+                        </ImageView>
+                        <VBox>
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name" />
+                              <HBox prefHeight="10.0" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="userID" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </VBox>
+                        <VBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="EDIT" textFill="#8bc34a">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ececec; -fx-cursor: hand;" text="DELETE" textFill="#e86829">
+                                 <VBox.margin>
+                                    <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

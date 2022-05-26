@@ -1,0 +1,6 @@
+1,Neera,L,14,Male,51,68489,-,no,Yes,Pfizer,Pfizer,None,None
+2,Kerik,Second,20,female,90,150,-,Yes,Yes,AstraZeneca,Sinovec,Sinovec,None
+3,N,ty,14,female,70,200,??????,Yes,Yes,Sinovec,Sinovec,Sinovec,Pfizer
+4,eryh,zdfhxfg,sfgbdfxht,female,fxgjhfyjn,azesrgxdfhb,zdfhxfgnj,no,no,null,null,null,null
+5,jotaro,jojo,15,female,45,3547,-,no,no,null,null,null,null
+6,poiuy,qwert,741,female,741,147,-,no,no,null,null,null,null

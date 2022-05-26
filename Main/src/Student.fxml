@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Studentcontroller">
+   <children>
+      <HBox alignment="TOP_CENTER" style="-fx-background-color: #ffff;" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox>
+                           <children>
+                              <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label alignment="TOP_LEFT" contentDisplay="CENTER" text="NoN" textFill="#6b6868">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="VACCINATED">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox>
+                           <children>
+                              <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label alignment="TOP_LEFT" text="NoN" textFill="#6b6868">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #ececec;">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER">
+                     <children>
+                        <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="addicted to covid">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <Label alignment="CENTER" text="NoN" textFill="#6b6868">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox prefHeight="46.0" prefWidth="808.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+               <children>
+                  <Text fill="#6b6868" strokeType="OUTSIDE" strokeWidth="0.0" text="STUDENT" textAlignment="CENTER" wrappingWidth="256.58984375">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <HBox alignment="CENTER_RIGHT">
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </HBox>
+                  <Button mnemonicParsing="false" onMouseClicked="#Add_student" prefWidth="190.0" style="-fx-background-radius: 0; -fx-background-color: #8bc34a; -fx-cursor: hand;" text="Add STUDENT" textFill="WHITE">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <AnchorPane prefHeight="488.0" prefWidth="1100.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text layoutX="55.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Addicted to covid">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaccinated ">
+               <rotationAxis>
+                  <Point3D y="1.0" />
+               </rotationAxis>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The first dose is">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The second dose is">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The third dose is">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="55.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The fourth dose is">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="FName" layoutX="204.0" layoutY="70.0" />
+            <TextField fx:id="LName" layoutX="204.0" layoutY="104.0" />
+            <TableView fx:id="TvBook" layoutX="375.0" layoutY="23.0" prefHeight="439.0" prefWidth="693.0">
+              <columns>
+                <TableColumn fx:id="Colid" prefWidth="43.0" text="ID" />
+                <TableColumn fx:id="ColFName" prefWidth="117.0" text="First Name" />
+                  <TableColumn fx:id="ColLName" prefWidth="116.0" text="Last Name" />
+                  <TableColumn fx:id="Colinf" prefWidth="66.0" text="Infected" />
+                  <TableColumn fx:id="ColVacc" prefWidth="68.0" text="Vaccine" />
+                  <TableColumn fx:id="ColstD" prefWidth="70.0" text="1st Dose" />
+                  <TableColumn fx:id="ColndD" prefWidth="70.0" text="2nd Dose" />
+                  <TableColumn fx:id="ColrdD" prefWidth="70.0" text="3rd Dose" />
+                  <TableColumn fx:id="ColthD" prefWidth="70.0" text="4th Dose" />
+              </columns>
+            </TableView>
+            <ChoiceBox fx:id="FDose" layoutX="204.0" layoutY="208.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="SDose" layoutX="204.0" layoutY="242.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="TDose" layoutX="204.0" layoutY="275.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="FthDose" layoutX="204.0" layoutY="309.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="ChoiceVaccine" layoutX="204.0" layoutY="175.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="ChoiceCovid" layoutX="204.0" layoutY="140.0" prefWidth="150.0" />
+            <Button fx:id="Edit_button" layoutX="112.0" layoutY="370.0" mnemonicParsing="false" onAction="#HandleButton" prefHeight="32.0" prefWidth="75.0" text="Edit" />
+            <Button fx:id="Delete_button" layoutX="203.0" layoutY="370.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="75.0" text="Delete" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

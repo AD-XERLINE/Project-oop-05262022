@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane fx:id="Main_pane" prefHeight="760.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Appcontroller">
+   <left>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #ffff;">
+               <children>
+                  <HBox style="-fx-background-color: #AD1D00;">
+                     <children>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-alignment: center;" text="KMITL" wrappingWidth="233.0">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <VBox alignment="CENTER_LEFT" onMouseClicked="#Show_dash" prefHeight="123.0" style="-fx-background-color: #ececec; -fx-cursor: hand;">
+                     <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#Show_dash" style="-fx-background-color: tramsparent;" text="Dashboard">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fx:id="compImage1" fitHeight="71.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@png/project1%20comp-04-01.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" onMouseClicked="#Show_teacher" prefHeight="123.0" style="-fx-background-color: #ececec; -fx-cursor: hand;">
+                     <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#Show_teacher" style="-fx-background-color: tramsparent;" text="Teacher">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fx:id="compImage11" fitHeight="71.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@png/project1%20comp-02-01.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" onMouseClicked="#Show_Student" prefHeight="123.0" style="-fx-background-color: #ececec; -fx-cursor: hand;">
+                     <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#Show_Student" style="-fx-background-color: tramsparent;" text="Student">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fx:id="compImage12" fitHeight="71.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@png/project1%20comp-01.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="123.0" style="-fx-background-color: #ececec; -fx-cursor: hand;">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: tramsparent;" text="User Manual">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fx:id="compImage13" fitHeight="71.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@png/project1%20comp-03-01.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" right="20.0" top="20.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </left>
+   <center>
+      <VBox prefHeight="760.0" prefWidth="1158.0" style="-fx-background-color: #ffff;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
